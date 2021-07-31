@@ -29,8 +29,6 @@
               </form> 
               </div><!--close for form-->
         </main>
-        <footer>
-            Website with Apache and PHP by Meghan Kinsherf
-        </footer>
+        <?php include 'footer.php' ?>
     </body>
 </html>

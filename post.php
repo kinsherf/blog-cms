@@ -26,8 +26,6 @@
                 <p>Meghan Kinsherf</p>
             </div><!--close for author-->
         </main>
-        <footer>
-            Website with Apache and PHP by Meghan Kinsherf
-        </footer>
+        <?php include 'footer.php' ?>
     </body>
 </html>

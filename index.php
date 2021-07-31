@@ -18,8 +18,6 @@
             <li><a href="post.php">Blog Post</a></li>
         </ul>
         </main>
-        <footer>
-            Website with Apache and PHP by Meghan Kinsherf
-        </footer>
+        <?php include 'footer.php' ?>
     </body>
 </html>
