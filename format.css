@@ -1,0 +1,26 @@
+body {
+    background-color: #fffff;
+    font-family: "roboto", "arial", "sans-serif";
+    color: black;
+}
+
+#header {
+    background-color: #9fe2bf;
+    text-align: left;
+    width: 100%;
+    height: 15%;
+}
+
+h1{
+    margin-left: 40px;
+}
+
+nav{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 40px;
+}
