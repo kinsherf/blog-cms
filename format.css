@@ -27,9 +27,9 @@ nav{
     margin-right: 40px;
 }
 
-a:link{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px; }
-a:visited{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px; }
-a:active{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px; }
+a:link{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px;}
+a:visited{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px;}
+a:active{text-decoration: none; color: #008080; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px;}
 a:hover{text-decoration: none; color: #000000; font-weight: bold; margin: 10px; background: #ffffff; padding: 10px; border-radius: 3px; }
 
 ul {
@@ -39,6 +39,10 @@ ul {
     text-align: left;
   }
 
+#form{
+    margin-left: 10%;
+}
+
 footer {
     background-color: #9fe2bf;
     text-align: center;
@@ -47,4 +51,25 @@ footer {
     margin-top: 20px;
     border-radius: 6px;
     font-family: 'Roboto Slab', serif;
+}
+
+input[type=submit]:hover {
+    text-decoration: none; 
+    color: #008080; 
+    font-weight: bold; 
+    margin: 10px; 
+    background: #ffffff; 
+    padding: 10px; 
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: bold; 
+    margin: 10px; 
+    background: #ffffff; 
+    padding: 10px; 
+    border-radius: 6px;
+    border-color: #008080;
 }
