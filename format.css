@@ -17,6 +17,24 @@ h1{
     padding-top: 12px;
 }
 
+h2{
+    text-align: center;
+}
+
+#author{
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+}
+
+#postcontent{
+    margin-left: 20px;
+}
+
+#datepublished{
+    margin-left: 20px;
+}
+
 nav{
     float: right;
     color: #f2f2f2;
