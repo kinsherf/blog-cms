@@ -16,7 +16,7 @@
             </header>
             <nav>
                 <a href="index.php">Home</a>
-                <a href="post-submission.html">Post Submission</a>
+                <a href="post-submission.php">Post Submission</a>
             </nav>
         </div><!--close for header-->
         <main>

@@ -16,13 +16,13 @@
         </header>
         <nav>
             <a href="index.php">Home</a>
-            <a href="post-submission.html">Post Submission</a>
+            <a href="post-submission.php">Post Submission</a>
         </nav>
     </div><!--close for header-->
         <main>
             <br><br><br>
             <ul>
-            <li><a href="post.html">Blog Post</a></li>
+            <li><a href="post.php">Blog Post</a></li>
         </ul>
         </main>
         <footer>
