@@ -11,6 +11,7 @@
 </head>
     <body>
     <?php include 'header.php' ?>
+    <?php include 'nav.php' ?>
         <main>
             <div id="form">
                 <h2>New Blog Post Submission</h2>

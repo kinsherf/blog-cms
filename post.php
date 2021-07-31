@@ -11,8 +11,9 @@
 </head>
     <body>
     <?php include 'header.php' ?>
+    <?php include 'nav.php' ?>
         <main>
-            <h2>Blog Post 1</h2>
+            <br><br><br><h2>Blog Post 1</h2>
             <div id="datepublished">
                 <p>August 1, 2021</p>
             </div><!--close for date-->

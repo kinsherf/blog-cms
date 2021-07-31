@@ -11,6 +11,7 @@
 </head>
     <body>
     <?php include 'header.php' ?>
+    <?php include 'nav.php' ?>
         <main>
             <br><br><br>
             <ul>
