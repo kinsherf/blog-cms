@@ -12,6 +12,7 @@
     <body>
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>
+    <div id="main">
         <main>
             <?php
                 function getPostDetailsFromDatabase() {
@@ -35,6 +36,7 @@
             <div id="postcontent"> <?php echo $postDetails ["postcontent"]; ?> </div>
             <div id="author"> <?php echo $postDetails ["author"]; ?> </div>
         </main>
+     </div> <!--close for main-->
         <?php include 'footer.php' ?>
     </body>
 </html>

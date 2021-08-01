@@ -34,7 +34,7 @@ h2{
     margin-left: 20px;
 }
 
-nav{
+#nav{
     float: right;
     color: #f2f2f2;
     text-align: right;
@@ -61,7 +61,7 @@ ul {
     margin-left: 10%;
 }
 
-.footer {
+#footer {
     background-color: #9fe2bf;
     text-align: center;
     padding: 30px;

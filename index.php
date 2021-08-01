@@ -12,6 +12,7 @@
     <body>
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>
+    <div id="main">
         <main>
             <?php
                 function getPostTitlesFromDatabase() {
@@ -27,12 +28,13 @@
                     $postTitles = getPostTitlesFromDatabase();
 
                     foreach($postTitles as $postTitle) {
-                        echo "<li><a href='post.php?title=>" . $postTitle . "'>" . $postTitle . 
+                        echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
                         "</a></li>";
                     }
                 ?>
         </ul>
         </main>
+    </div> <!--close for main-->
         <?php include 'footer.php' ?>
     </body>
 </html>

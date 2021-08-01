@@ -12,6 +12,7 @@
     <body>
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>
+    <div id="main">
         <main>
             <div id="form">
                 <h2>New Blog Post Submission</h2>
@@ -29,6 +30,7 @@
               </form> 
               </div><!--close for form-->
         </main>
+    </div><!--close for main-->
         <?php include 'footer.php' ?>
     </body>
 </html>
