@@ -34,7 +34,6 @@
             <div id="datepublished"> <?php echo $postDetails ["datepublished"]; ?> </div>
             <div id="postcontent"> <?php echo $postDetails ["postcontent"]; ?> </div>
             <div id="author"> <?php echo $postDetails ["author"]; ?> </div>
-            </div><!--close for author-->
         </main>
         <?php include 'footer.php' ?>
     </body>
