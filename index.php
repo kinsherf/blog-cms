@@ -1,5 +1,3 @@
-<?php include_once 'db_connect.php' ?>
-
 <html>
     <head>
         <title>
@@ -16,14 +14,21 @@
     <?php include 'nav.php' ?>
     <div id="main">
         <main>
-            <?php
-                function getPostTitlesFromDatabase() {
-                    //TODO in Module 4
-                    //get this data from a database instead of hardcoding it
-                    $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
-                    return $postTitles;
-                }
-            ?>
+<?php 
+function getPostTitlesFromDatabase() {
+    // Get all the post titles from the posts table
+    include_once 'db_connect.php';
+    $sql = "SELECT title FROM posts";
+    $result = mysqli_query($conn, $sql);
+    
+    // Get each result row as an assoc array, then add title to $postTitles
+    $postTitles = array();
+    while($row = mysqli_fetch_assoc($result)){
+        array_push($postTitles, $row['title']);
+    }
+    return $postTitles;
+}
+?>
             <br><br><br>
             <ul>
                 <?php
