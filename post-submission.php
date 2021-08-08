@@ -16,7 +16,7 @@
         <main>
             <div id="form">
                 <h2>New Blog Post Submission</h2>
-            <form action="/action_page.php" method="get">
+            <form action="submit-post.php" method="post">
                 <label for="title">Title</label><br>
                 <input type="text" id="title" name="title"><br><br>
                 <label for="author">Author</label><br>
