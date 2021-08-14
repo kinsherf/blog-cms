@@ -3,7 +3,6 @@
         <title>
             Meghan Kinsherf
         </title>
-        <script src="hello.js"></script>
         <link rel="stylesheet" type="text/css" href="format.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
