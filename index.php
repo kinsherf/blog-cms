@@ -3,6 +3,7 @@
         <title>
             Meghan Kinsherf
         </title>
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="format.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,8 @@
     <?php include 'nav.php' ?>
     <div id="main">
         <main>
+            <button onclick="revealMessage()" style="display:none">Hello</button>
+            <p id="hiddenMessage" style="display:none">Hi there!</p>
 <?php 
 function getPostTitlesFromDatabase() {
     // Get all the post titles from the posts table
