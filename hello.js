@@ -32,3 +32,8 @@ var isSettled = getIsSettled (5, false);
 document.write(fullName);
 document.write("<h1>Hello World</h1>");
 
+if (isSettled) {
+    document.write (fullName + "is settled.") ;
+} else {
+    document.write (fullName + "is not settled.");
+}
