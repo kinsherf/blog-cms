@@ -28,3 +28,7 @@ function getIsSettled (age, married) { //function name
 
 var isSettled = getIsSettled (age, married);
 var isSettled = getIsSettled (5, false);
+
+document.write(fullName);
+document.write("<h1>Hello World</h1>");
+
