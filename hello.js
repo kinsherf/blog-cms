@@ -11,3 +11,20 @@ var fullName = firstName + " " + lastName; //concatentation operator
 var dogYears = age/7; //arithmetic operator
 var isAdult = dogYears > 4; //comparison operator
 var isSettled = isAdult && married; //integer type variable
+
+function getFullName(firstName, lastName) { //Function name
+    return firstName + " " + lastName; //returned value
+}
+
+var fullName = getFullName(firstName, lastName); //Using variables
+var fullName = getFullName("Alice", "Doe"); //using values
+
+function getIsSettled (age, married) { //function name
+    dogYears = age/7;
+    isAdult = dogYears > 4;
+    isSettled = isAdult && married;
+    return isSettled;
+}
+
+var isSettled = getIsSettled (age, married);
+var isSettled = getIsSettled (5, false);
