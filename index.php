@@ -5,8 +5,8 @@
     <?php include 'nav.php' ?>
     <div id="main">
         <main>
-            <button onclick="revealMessage()" style="display:none">Hello</button>
-            <p id="hiddenMessage" style="display:none">Hi there!</p>
+            <button onclick="revealMessage()">Hello</button>
+            <p id="hiddenMessage" style="display:none; text-align: center; color: blue;" >Hi there!</p>
 <?php 
 function getPostTitlesFromDatabase() {
     // Get all the post titles from the posts table

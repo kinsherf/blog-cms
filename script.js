@@ -1,3 +1,5 @@
-function revealMessage(){
-    document.getElementById("hiddenMessage").style.display = 'block';
-}
+$(document).ready(function () {
+    $("button").click(function(){
+        alert("Hi there!");
+    })
+});
