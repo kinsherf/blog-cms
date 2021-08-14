@@ -37,3 +37,7 @@ if (isSettled) {
 } else {
     document.write (fullName + "is not settled.");
 }
+
+childrenNames.forEach(function(childName) {
+    document.write("<li>" + childName + "</li>");
+});
