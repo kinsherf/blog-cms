@@ -1,5 +1,9 @@
 $(document).ready(function () {
     $("button").click(function(){
-        alert("Hi there!");
+     new List ('sortable-blog-list', options);
     })
 });
+
+var options = {
+    valueNames: [ 'title' ]
+};

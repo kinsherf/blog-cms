@@ -5,7 +5,7 @@
     <?php include 'nav.php' ?>
     <div id="main">
         <main>
-            <button onclick="revealMessage()">Hello</button>
+            <button onclick="revealMessage()" style="display:none">Hello</button>
             <p id="hiddenMessage" style="display:none; text-align: center; color: blue;" >Hi there!</p>
 <?php 
 function getPostTitlesFromDatabase() {
@@ -23,16 +23,20 @@ function getPostTitlesFromDatabase() {
 }
 ?>
             <br><br><br>
-            <ul>
+            <div id="sortable-blog-list">
+            <input class="search" placeholder="Search"/>
+            <button class="sort" data-sort="title">Sort</button>
+            <ul class="list">
                 <?php
                     $postTitles = getPostTitlesFromDatabase();
 
                     foreach($postTitles as $postTitle) {
-                        echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
-                        "</a></li>";
+                        echo "<li><a href='post.php?title=" . $postTitle
+                        . " ' class='title'>" . $postTitle . "</a></li>";
                     }
                 ?>
         </ul>
+                </div><!--close for sortlist>
         </main>
     </div> <!--close for main-->
         <?php include 'footer.php' ?>
