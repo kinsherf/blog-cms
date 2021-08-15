@@ -1,5 +1,7 @@
 <html>
+    <head>
 <?php include 'head.php' ?>
+</head>
     <body>
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>

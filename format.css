@@ -71,7 +71,7 @@ ul {
     position: fixed;
 }
 
-input[type=submit]:hover {
+button:hover {
     text-decoration: none; 
     color: #008080; 
     font-weight: bold; 
@@ -81,7 +81,7 @@ input[type=submit]:hover {
     border-radius: 6px;
 }
 
-input[type=submit] {
+button {
     text-decoration: none; 
     color: #000000; 
     font-weight: bold; 
@@ -90,4 +90,8 @@ input[type=submit] {
     padding: 10px; 
     border-radius: 6px;
     border-color: #008080;
+}
+
+#editor {
+    height: 300px;
 }

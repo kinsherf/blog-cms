@@ -1,5 +1,8 @@
 <html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="format.css"/>
 <?php include 'head.php' ?>
+</head>
     <body>
     <?php include 'header.php' ?>
     <?php include 'nav.php' ?>
